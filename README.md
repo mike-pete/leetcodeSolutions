@@ -15,6 +15,7 @@ As solutions to LeetCode challenges are added to the solutions folder, Github Ac
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](solutions/search-insert-position) | Easy | [Python](solutions/search-insert-position/O(n)Solution.py), [Python](solutions/search-insert-position/solution.py),  | Algorithms |
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](solutions/maximum-subarray) | Medium | [Python](solutions/maximum-subarray/solution.py),  | Algorithms |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](solutions/jump-game) | Medium | [Python](solutions/jump-game/solution.py),  | Algorithms |
+| [520](https://leetcode.com/problems/detect-capital/) | [Detect Capital](solutions/detect-capital) | Easy | [JavaScript](solutions/detect-capital/solution.js),  | Algorithms |
 
 ## Usage
 Add solutions to LeetCode challenges, inside a directory named after the challenge, to the solutions directory. The directory name must match the name of a LeetCode challenge. If the challenge directory does not contain a README, GitHub Actions will generate one from the challenge description on LeetCode.com and add it to the table on the main repo README.
