@@ -1,0 +1,33 @@
+// func deleteDuplicates(head *ListNode) *ListNode {
+// 	if head == nil {
+// 		return nil
+// 	}
+
+// 	prev := head
+// 	node := head.Next
+
+// 	for {
+// 		for node != nil && node.Next != nil && node.Val == node.Next.Val {
+// 			node = getNodeWithNextValue(node)
+// 		}
+
+// 		prev.Next = node
+
+// 		if node == nil {
+// 			return head
+// 		}
+
+// 		prev = node
+// 		node = node.Next
+// 	}
+// }
+
+// func getNodeWithNextValue(head *ListNode) (node *ListNode) {
+// 	node = head
+
+// 	for node != nil && node.Val == head.Val {
+// 		node = node.Next
+// 	}
+
+// 	return
+// }
